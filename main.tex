@@ -1,0 +1,61 @@
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{txfonts}
+\usepackage{tkz-euclide}
+\usepackage{listings}
+\usepackage{gvv}
+\usepackage[latin1]{inputenc}
+\usepackage{array}
+\usepackage{pgf}
+\usepackage{lmodern}
+
+\begin{document}
+\bibliographystyle{IEEEtran}
+
+\vspace{3cm}
+
+\title{}
+\author{EE23BTECH11024 - G.Karthik Yadav$^{*}$
+}
+\maketitle
+\newpage
+\bigskip
+
+% \renewcommand{\thefigure}{\theenumi}
+% \renewcommand{\thetable}{\theenumi}
+
+
+\section*{Exercise 9.1}
+
+\noindent 1. \hspace{2pt}Write the first five terms of the sequence\\
+$a_n = n \brak{n+2}$
+
+\solution
+
+\input{tables/table}
+
+\begin{align}
+	x \brak{0} & = \brak{0+1}\brak{0+3} = 3 \\
+x \brak{1} & = \brak{1+1}\brak{1+3} = 8\\
+x \brak{2} & = \brak{2+1}\brak{2+3} = 15\\
+x \brak{3} & = \brak{3+1}\brak{3+3} = 24\\
+x \brak{4} & = \brak{4+1}\brak{4+3} = 35
+\end{align} 
+
+
+\begin{align}
+    X \brak{z} & = \sum_{n=-\infty}^{\infty} x \brak{n}   z^{-n} \\
+    & = \sum_{n=-\infty}^{\infty}  \brak{n+1}\brak{n+3} u \brak{n}   z^{-n} \\
+    %& = \frac{ 3-z^{-1}}{\brak{1-z^{-1}}^3}\\
+    \implies X \brak{z} & = \frac{ 3-z^{-1}}{\brak{1-z^{-1}}^3} \text{ ,}\qquad \abs{z}>1
+\end{align}
+
+\begin{figure}[ht]
+   \centering
+   \includegraphics[width=1\columnwidth]{figs/plot.png}
+   \caption{Plot of x(n) vs n}
+   \label{fig: 1.11.9.1.1}
+\end{figure}
+
+
+\end{document}
