@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.9)  17 FEB 2024 17:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.9)  19 FEB 2024 13:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1021,20 +1021,32 @@ Overfull \hbox (52.92795pt too wide) in paragraph at lines 8--20
  []
 
 )
-<figs/plot.png, id=4, 462.528pt x 320.1561pt>
-File: figs/plot.png Graphic file (type png)
-<use figs/plot.png>
-Package pdftex.def Info: figs/plot.png  used on input line 55.
+! Undefined control sequence.
+<argument>  x \brak {n} \system 
+                                {Z} X \brak {z} 
+l.47 \end{align}
+                
+? 
+! Undefined control sequence.
+<argument>  x \brak {n} \system 
+                                {Z} X \brak {z} 
+l.47 \end{align}
+                
+? 
+<figs/plot1.png, id=4, 462.528pt x 320.1561pt>
+File: figs/plot1.png Graphic file (type png)
+<use figs/plot1.png>
+Package pdftex.def Info: figs/plot1.png  used on input line 58.
 (pdftex.def)             Requested size: 252.0pt x 174.4352pt.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./figs/plot.png>]
+ <./figs/plot1.png>]
 (./main.aux) ) 
 Here is how much of TeX's memory you used:
  21219 strings out of 478287
- 448864 string characters out of 5849290
- 700307 words of memory out of 5000000
+ 448871 string characters out of 5849290
+ 701307 words of memory out of 5000000
  38915 multiletter control sequences out of 15000+600000
  650920 words of font info for 170 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1050,7 +1062,7 @@ c/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/te
 xmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts
 /type1/public/lm/lmsy8.pfb>
-Output written on main.pdf (1 page, 167189 bytes).
+Output written on main.pdf (1 page, 165434 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream

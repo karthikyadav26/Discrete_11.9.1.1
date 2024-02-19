@@ -14,7 +14,6 @@ plt.stem(x_values, y_values, basefmt='r-', linefmt='b-', markerfmt='ro')
 # Set plot labels and title
 plt.xlabel('n')
 plt.ylabel('x(n)')
-plt.title('Terms of Sequence x(n)')
 
 # Display the plot
 plt.grid(True)
